@@ -1,0 +1,87 @@
+  
+body{
+  background:  #F6F6F6;
+  height :100vh;
+  width : 100vw;
+}
+.block{
+  background : #fff;
+  border-radius : 5px;
+  box-shadow : 0 3px 15px rgba(0, 0, 0, .1);
+  margin : 30px auto;
+  position : relative;
+  width: 60%;
+  min-height: 380px;
+}
+#title{
+  color: black;
+  font-weight: bold;
+  width: 100%;
+  text-align: center
+}
+
+.addToDo , .todoListItem {
+  widows: 100%;
+  display: flex;
+  justify-content : space-between;
+  letter-spacing : 2px;
+  margin-bottom: 20px;
+}
+.todoListItem{
+  margin-bottom: 0px !important;
+  border-bottom: solid 0.5px #ccc
+}
+.addToDo{
+  padding: 30px 10px 10px 30px
+}
+.colorLine {
+  width: 10px
+}
+.addToDo input {
+  width: 75%;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  border:solid 1px #ccc;
+  padding: 10px 20px;
+}
+.btnAddNew{
+  background-color: #E69D27;
+  font-size: 15px;
+  padding: 10px;
+  width: 18%;
+  border-radius: 10px
+}
+.todoListItem .todoName{
+width: 80%;
+font-size : 20px;
+}
+.todoListItem input{
+  width: 75%;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  border:solid 1px #ccc;
+  padding: 10px 20px;
+  margin: 15px 10px
+}
+.todoListItem .btnAddNew {
+  margin: 15px 10px
+}
+.todoStatus {
+  width: 15%;
+  border-radius: 10px;
+  margin: auto 0;
+}
+.todoStatus button,span {
+  font-size: 18px;
+  border: none
+}
+.todoStatus .deleteTodo{
+  color: #D21129
+}
+ul , li{
+  list-style-type:none;
+  padding: 0;
+  margin: 0
+}
